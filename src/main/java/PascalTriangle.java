@@ -22,7 +22,7 @@ public class PascalTriangle {
             for (int row = 0; row < tingkat; row++) {
                 System.out.printf("%2d", row + 1);
                 // arrange whitepace on the left side
-                for (int i = 0; i < (tingkat - row) * KELIPATAN_SPASI; i++) System.out.print(".");
+                for (int i = 0; i < (tingkat - row) * KELIPATAN_SPASI; i++) System.out.print("_");
                 // System.out.printf("%" + (tingkat - row) * KELIPATAN_SPASI + "s", ""); // other method but whitespaces
 
                 out = 1; // kombinasi awal
